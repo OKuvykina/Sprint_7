@@ -14,4 +14,3 @@ def courier():
 def login():
     responce = LoginMethods().login_courier(LOGIN)
     yield responce[1]['id']
-    return responce[1]['id']
